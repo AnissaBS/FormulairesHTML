@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+	<form>
+	<fieldset>
+		<legend><h2>Coordonnées</h2></legend>
+		<table>
+			<tr>
+			<td><label><h4>Civilité</h4></label></td>
+			
+			<td>
+            <input type="radio" id="mademoiselle">
+            <label for="mademoiselle">Mademoiselle</label>
+			
+            <input type="radio" checked id="madame">
+            <label for="madame">Madame</label>
+			
+            <input type="radio" id="monsieur">
+            <label for="monsieur">Monsieur</label>
+			</td>
+            </tr>
+			
+			<tr>
+			<td><label><h4>Nom / Prénom</h4></label></td>
+			<td><input type="text" placeholder=" NOM Prénom"></td>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Adresse</h4></label></td>
+			<td><textarea cols="40" rows="4"></textarea></td>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Code postale/<br>Localité/<br>Gouvernorat</h4></label></td>
+			<td><input type="text" maxlength="10">
+			<input type="text" placeholder="Jendouba">
+			<select name="">
+				<option value="">Jendouba</option>
+				<option value="">Tunis</option>
+				<option value="">Monastir</option>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Pays</h4></label></td>
+			<td><select name="">
+				<option value="">Tunisie</option>
+				<option value="">France</option>
+				<option value="">Italie</option>
+				<option value="">Allemagne</option>
+			</select></td>
+			
+			<tr>
+			<td><label><h4>Plateforme(s)</h4></label></td>
+			
+			<td> 
+            <input type="checkbox" checked id="checkbox">
+            <label for="checkbox">Windows</label>
+			
+            <input type="checkbox" checked id="checkbox">
+            <label for="checkbox">Macintosh</label>
+			
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Unix</label>
+			</td>
+            </tr>
+			
+			<tr>
+			<td><label><h4>Application(s)</h4></label></td>
+			<td><select name="">
+				<option value="">Bureautique</option>
+				<option value="">DAO</option>
+				<option value="">Statistiques</option>
+				<option value="">SGBD</option>
+				<option value="">Internet</option>
+			</select></td>
+			
+			<tr>
+			<td></td>
+			<td><input type="submit" value="Soumettre le formulaire">
+			<input type="reset" value="Effacer"></td>
+			</tr>
+			
+		</table>
+		
+		</fieldset>
+		</form>
+	</body>
+	</html>

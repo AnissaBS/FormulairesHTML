@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<form>
+	<fieldset>
+		<legend><h2>Formulaire d'inscription</h2></legend>
+		<table>
+		
+			<tr>
+			<td><label><h4>Nom</h4></label></td>
+			<td><input placeholder="saisir votre nom"></td>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Prénom</h4></label></td>
+			<td><input placeholder="saisir votre prénom"></td>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Email</h4></label></td>
+			<td><input type="email" placeholder="saisir votre email"></td>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Sexe</h4></label></td>
+			
+			<td>
+			<label for="masculin">Masculin</label>
+            <input type="radio" checked id="masculin">
+			
+			
+            <label for="féminin">Féminin</label>
+            <input type="radio" id="féminin">
+			</td>
+            </tr>
+			
+			<tr>
+			<td><label><h4>Photo</h4></label></td>
+			<td><input type="file"></td>
+			</tr>
+			
+			<tr>
+			<td><label><h4>Pays</h4></label></td>
+			<td><select name="">
+				<option value="">France</option>
+				<option value="">Italie</option>
+				<option value="">Espagne</option>
+				<option value="">Autres</option>
+			</select></td>
+			
+			<tr>
+			<td><label><h4>Les langages<br>préférés</h4></label></td>
+			<td><select name="">
+				<option value="">Java</option>
+				<option value="">C</option>
+				<option value="">C++</option>
+				<option value="">PHP</option>
+				<option value="">Python</option><br>
+			</select>
+			(Pour faire plusieurs choix, maintenir la touche CTRL enfoncée)</td>
+			
+			<tr>
+			<td><label><h4>Domaine d'activités</h4></label></td>
+			
+			<td>
+            <input type="checkbox" checked id="checkbox">
+            <label for="checkbox">Informatique</label>
+			
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Gestion</label>
+			
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Pédagogie</label>
+			</td>
+            </tr>
+			
+			<tr>
+			<td></td>
+			<td><input type="submit" value="Envoyer">&emsp;&emsp;
+			<input type="reset" value="Annuler"></td>
+			</tr> 
+
+		</table>
+	</fieldset>
+</form>
+
+</body>
+</html>
